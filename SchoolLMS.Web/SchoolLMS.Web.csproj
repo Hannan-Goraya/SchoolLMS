@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+   
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolLMS.Bll\SchoolLMS.Bll.csproj" />
+    <ProjectReference Include="..\SchoolLMS.Dal\SchoolLMS.Dal.csproj" />
+    <ProjectReference Include="..\SchoolLMS.Domain\SchoolLMS.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
